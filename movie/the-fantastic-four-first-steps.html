@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fantastic Four: First Steps (2025)</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eaf6fc;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .text-section {
+            max-width: 400px;
+            text-align: center;
+        }
+        .video-section {
+            max-width: 100%;
+            width: 720px;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin: 10px 5px;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                text-align: center;
+            }
+            .video-section {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <h1 style="color:#0095ff;">The Fantastic Four: First Steps (2025)</h1>
+            <p>Against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel's First Family is forced to balance their roles as heroes with the strength of their family bond, while defending Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer.<a href="#">Video</a>, <a href="#">Audio</a>, <a href="#">YouTube</a>, and <a href="#">Vimeo</a>.</p>
+        </div>
+        <div class="video-section">
+            <video id="player" playsinline controls>
+                <source src="https://www.imdb.com/video/vi18467097/?playlistId=tt10676052&ref_=ext_shr_lnk" type="video/mp4" />
+            </video>
+        </div>
+        <div class="buttons-section">
+            <a href="https://x.com/MostPopularM" class="download-btn">Watch Full</a>
+            <a href="https://x.com/MostPopularM" class="download-btn">Download</a>
+        </div>
+    </div>
 
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+    <script>
+        const player = new Plyr('#player');
+    </script>
+</body>
+</html>
