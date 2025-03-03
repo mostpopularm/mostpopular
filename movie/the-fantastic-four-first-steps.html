@@ -69,6 +69,7 @@
         <div class="buttons-section">
             <a href="https://stream-movies-tv-shows.blogspot.com/p/please-wait-minute.html" class="download-btn">Watch Full</a>
             <a href="https://stream-movies-tv-shows.blogspot.com/p/please-wait-minute.html" class="download-btn">Download</a>
+            <a id="adLink" class="download-btn">Advertisement</a>
         </div>
     </div>
 
@@ -91,7 +92,9 @@
                 player.controls[0].duration = 7200;
             });
         });
+        
+        // Mengatur link iklan menggunakan Base64 decoding
+        document.getElementById("adLink").href = atob("aHR0cHM6Ly93d3cuZWZmZWN0aXZlcmF0ZWNwbS5jb20vYXhkc3g4emo/a2V5PTQ0ZjM5YjczNzA3NWFlZTIyZTM3YzBmZjExMTg3N2Fh");
     </script>
-
 </body>
 </html>
