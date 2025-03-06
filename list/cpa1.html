@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        function decodeAndRedirect() {
+            // Tautan dalam format Base64
+            var encodedUrl = "aHR0cHM6Ly9jbGljay1lY29tLmNvbS8/YT0xMzUzMzkmYz00MDQ2NDQmY289MTgyMzg5Jm10PTUmczM9ZGVuYQ==";
+            
+            // Dekode Base64 ke URL asli
+            var decodedUrl = atob(encodedUrl);
+            
+            // Redirect ke URL yang telah didekode
+            window.location.href = decodedUrl;
+        }
+        
+        // Jalankan redirect setelah halaman dimuat
+        window.onload = decodeAndRedirect;
+    </script>
+</head>
+<body>
+    <p>Please Wait a Minute...</p>
+</body>
+</html>
 
